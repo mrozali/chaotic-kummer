@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the paper given under preferred-citation."
+title: "Onset of quantum chaos in a family of two-dimensional conformal field theories: companion repository"
+type: software
+authors:
+  - family-names: "Haehl"
+    given-names: "Felix M."
+    affiliation: "University of Southampton"
+  - family-names: "Rozali"
+    given-names: "Moshe"
+    affiliation: "University of British Columbia"
+version: "1.0.0"
+date-released: "2026-11-22"
+license: CC-BY-4.0
+repository-code: "https://github.com/mrozali/chaotic-kummer"
+abstract: "Companion repository for the Letter Onset of quantum chaos in a family of two-dimensional conformal field theories, released with the Agentic Publication Protocol. It contains the paper source, the code that builds the first-order matrices of exactly marginal deformations of the K3 sigma model at the Kummer orbifold point from free-field data, the stored first-order spectra for the reference direction, 20 random directions and the singlet direction up to level E = 8, and scripts that reproduce the figures and the table of the Letter and check its numerical statements."
+keywords:
+  - "quantum chaos"
+  - "random matrix theory"
+  - "two-dimensional conformal field theory"
+  - "K3 sigma model"
+  - "Kummer orbifold"
+  - "exactly marginal deformations"
+  - "D1-D5 system"
+  - "anomalous dimensions"
+  - "level statistics"
+preferred-citation:
+  type: unpublished
+  title: "Onset of quantum chaos in a family of two-dimensional conformal field theories"
+  authors:
+    - family-names: "Haehl"
+      given-names: "Felix M."
+    - family-names: "Rozali"
+      given-names: "Moshe"
+  year: 2026
+  notes: "Letter with Supplemental Material, submitted to arXiv in November 2026."

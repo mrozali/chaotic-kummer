@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# outputs of the figure and check scripts
+code/figure-reproduction/generated/
+# group-theory cache written by code/kummer/r2c_group.py on first use
+code/kummer/_cache/
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*Notes.bib
+# cluster logs shipped as records
+!data/r2_out/*.log

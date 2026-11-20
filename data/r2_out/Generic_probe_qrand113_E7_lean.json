@@ -1,0 +1,94 @@
+{
+ "direction": "qrand113",
+ "th": 7,
+ "H_order": 16,
+ "irreps": [
+  0,
+  2,
+  3,
+  6
+ ],
+ "d_plus": 28288,
+ "d_minus": 28224,
+ "rank": 14144,
+ "n_sub": 4,
+ "n_gaps": 14136,
+ "r_mean": 0.5317472908143449,
+ "r_sem": 0.0021324600644685673,
+ "extra": [
+  "F_R",
+  "Z_R"
+ ],
+ "rows": [
+  {
+   "rho": 0,
+   "lab": [
+    1,
+    -1
+   ],
+   "nu": 3536,
+   "nt": 7056,
+   "rank": 3536,
+   "distinct": 3536,
+   "n_gaps": 3534,
+   "r_mean": 0.5304066790119101,
+   "r_sem": 0.004276913834123303,
+   "smallest_kept": 0.2494211559095748,
+   "largest_dropped": 0.0
+  },
+  {
+   "rho": 2,
+   "lab": [
+    1,
+    -1
+   ],
+   "nu": 3536,
+   "nt": 7056,
+   "rank": 3536,
+   "distinct": 3536,
+   "n_gaps": 3534,
+   "r_mean": 0.5340761411063595,
+   "r_sem": 0.0042255248120053445,
+   "smallest_kept": 1.330493055061402,
+   "largest_dropped": 0.0
+  },
+  {
+   "rho": 3,
+   "lab": [
+    1,
+    -1
+   ],
+   "nu": 3536,
+   "nt": 7056,
+   "rank": 3536,
+   "distinct": 3536,
+   "n_gaps": 3534,
+   "r_mean": 0.5304505989548854,
+   "r_sem": 0.004244017286132187,
+   "smallest_kept": 0.7162318131244138,
+   "largest_dropped": 0.0
+  },
+  {
+   "rho": 6,
+   "lab": [
+    1,
+    -1
+   ],
+   "nu": 3536,
+   "nt": 7056,
+   "rank": 3536,
+   "distinct": 3536,
+   "n_gaps": 3534,
+   "r_mean": 0.5320557441842245,
+   "r_sem": 0.004312411655063064,
+   "smallest_kept": 1.2610313186858406,
+   "largest_dropped": 0.0
+  }
+ ],
+ "gmax": 0.06831447435481629,
+ "rank_threshold": 6.831447435481629e-11,
+ "ref": null,
+ "ref_ok": null,
+ "seconds": 1168.2733407020569,
+ "method": "matrix-free lean (untwisted (r, label) projection)"
+}

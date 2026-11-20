@@ -1,0 +1,43 @@
+{
+ "direction": "qgen",
+ "th": 8,
+ "H_order": 16,
+ "irreps": [
+  2
+ ],
+ "d_plus": 19220,
+ "d_minus": 19856,
+ "rank": 9208,
+ "n_sub": 1,
+ "n_gaps": 9206,
+ "r_mean": 0.5254868021952347,
+ "r_sem": 0.0026647075106518542,
+ "extra": [
+  "F_R",
+  "Z_R"
+ ],
+ "rows": [
+  {
+   "rho": 2,
+   "lab": [
+    1,
+    1
+   ],
+   "nu": 9224,
+   "nt": 19856,
+   "rank": 9208,
+   "distinct": 9208,
+   "n_gaps": 9206,
+   "r_mean": 0.5254868021952347,
+   "r_sem": 0.0026647075106518542,
+   "smallest_kept": 0.982550144971851,
+   "largest_dropped": 1.4481595934667185e-11
+  }
+ ],
+ "gmax": 0.04499056489972331,
+ "rank_threshold": 4.499056489972332e-11,
+ "ref": "r2_out/Generic_probe_qgen_E8_mf_values.npz",
+ "ref_ok": true,
+ "seconds": 2246.796840906143,
+ "method": "matrix-free lean (untwisted (r, label) projection)"
+}

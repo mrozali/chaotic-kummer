@@ -1,0 +1,22 @@
+[     35 s] Space(prim, 6) built
+[     39 s] M 9604 x 20644 (twisted x untwisted), stabiliser order 16
+[     40 s] rho0_labpp: nu 1386, nt 2428
+[     54 s] basis Q 20644 x 1386, orthonormality 6.7e-16
+[     63 s] Z_0 done
+[     74 s] Z_1 done
+[     85 s] Z_2 done
+[     96 s] Z_3 done
+[     97 s] Gram matrices S_mu,nu (10 x 1386 x 1386)
+[     97 s] common null vectors of the four quaternion units: 36
+[     98 s] rank 1350; overlaps below threshold: {'1e-10': 810282, '1e-09': 810898, '1e-08': 810898, '1e-07': 810902, '1e-06': 810932, '1e-05': 811213, '1e-04': 813809, '1e-03': 839909} of 1822500
+[     98 s]   threshold 1e-08: 2 components, sizes [899, 451]
+[     98 s]   threshold 1e-07: 2 components, sizes [899, 451]
+[     98 s]   threshold 1e-06: 2 components, sizes [899, 451]
+[     98 s]   threshold 1e-05: 2 components, sizes [899, 451]
+[     98 s]   threshold 1e-04: 2 components, sizes [899, 451]
+[     98 s] leaves: [899, 451]
+[     98 s] G2: max cross element of the ten S_mu,nu between leaves 2.2e-08 (scale 2.7e+01)
+[    100 s] qgen      (5.53 deg) unresolved <r> 0.4323 | leaves 899: 0.5242 451: 0.5189 | leaves pooled 0.5224 +- 0.0070 | ref dev n/a, union dev 5.0e-14, leakage 1.8e-10
+[    100 s] qgen2     (1.55 deg) unresolved <r> 0.4547 | leaves 899: 0.5348 451: 0.4963 | leaves pooled 0.5219 +- 0.0069 | ref dev n/a, union dev 5.2e-14, leakage 1.7e-10
+[    100 s] gates: {'G1_leaves_stable': True, 'G2_block_diagonal': True, 'G3_common_null_space': True, 'G4_stored_values': True, 'G4_directions_checked': 0}
+[    100 s] ALL GATES PASS

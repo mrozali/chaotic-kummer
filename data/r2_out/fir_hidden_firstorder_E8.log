@@ -1,0 +1,66 @@
+[   1067 s] Space(prim, 8) built
+[   1071 s] M 79524 x 153321 (twisted x untwisted), stabiliser order 16
+[   1076 s] rho0_labpp: nu 9225, nt 19956
+[   1746 s] basis Q 153321 x 9225, orthonormality 8.9e-16
+[   3758 s] Z_0 done
+[   7132 s] Z_1 done
+[  10445 s] Z_2 done
+[  13629 s] Z_3 done
+[  13870 s] Gram matrices S_mu,nu (10 x 9225 x 9225)
+[  13878 s] Gram matrices saved
+[  13902 s] common null vectors of the four quaternion units: 9
+[  14365 s] rank 9216; overlaps below threshold: {'1e-10': 37791599, '1e-09': 37791652, '1e-08': 37791680, '1e-07': 37791965, '1e-06': 37794918, '1e-05': 37824605, '1e-04': 38121390, '1e-03': 41069217} of 84934656
+[  14365 s]   threshold 1e-08: 2 components, sizes [6137, 3079]
+[  14366 s]   threshold 1e-07: 2 components, sizes [6137, 3079]
+[  14366 s]   threshold 1e-06: 2 components, sizes [6137, 3079]
+[  14366 s]   threshold 1e-05: 2 components, sizes [6137, 3079]
+[  14367 s]   threshold 1e-04: 2 components, sizes [6137, 3079]
+[  14368 s] leaves: [6137, 3079]
+[  14410 s] G2: max cross element of the ten S_mu,nu between leaves 5.7e-09 (scale 3.2e+01)
+[  14456 s] qgen      (5.53 deg) unresolved <r> 0.4344 | leaves 6137: 0.5356 3079: 0.5309 | leaves pooled 0.5341 +- 0.0027 | ref dev 5.0e-10, union dev 2.9e-13, leakage 4.6e-11
+[  14500 s] qgen2     (1.55 deg) unresolved <r> 0.4491 | leaves 6137: 0.5329 3079: 0.5299 | leaves pooled 0.5319 +- 0.0027 | ref dev 5.0e-10, union dev 2.2e-13, leakage 4.8e-11
+[  14547 s] qrand101  (0.78 deg) unresolved <r> 0.4392 | leaves 6137: 0.5380 3079: 0.5293 | leaves pooled 0.5351 +- 0.0026 | ref dev 5.0e-10, union dev 2.3e-13, leakage 5.1e-11
+[  14592 s] qrand102  (1.89 deg) unresolved <r> 0.4409 | leaves 6137: 0.5293 3079: 0.5399 | leaves pooled 0.5328 +- 0.0027 | ref dev 5.0e-10, union dev 3.3e-13, leakage 5.5e-11
+[  14642 s] qrand103  (1.50 deg) unresolved <r> 0.4420 | leaves 6137: 0.5261 3079: 0.5371 | leaves pooled 0.5297 +- 0.0026 | ref dev 5.0e-10, union dev 3.3e-13, leakage 4.2e-11
+[  14684 s] qrand104  (0.08 deg) unresolved <r> 0.4247 | leaves 6137: 0.4566 3079: 0.4551 | leaves pooled 0.4561 +- 0.0028 | ref dev 5.0e-10, union dev 7.6e-13, leakage 5.3e-11
+[  14732 s] qrand105  (0.17 deg) unresolved <r> 0.4336 | leaves 6137: 0.4938 3079: 0.4631 | leaves pooled 0.4836 +- 0.0027 | ref dev 5.0e-10, union dev 5.0e-13, leakage 5.0e-11
+[  14778 s] qrand106  (5.87 deg) unresolved <r> 0.4455 | leaves 6137: 0.5347 3079: 0.5271 | leaves pooled 0.5321 +- 0.0027 | ref dev 5.0e-10, union dev 3.4e-13, leakage 4.7e-11
+[  14821 s] qrand107  (0.97 deg) unresolved <r> 0.4435 | leaves 6137: 0.5324 3079: 0.5121 | leaves pooled 0.5256 +- 0.0027 | ref dev 5.0e-10, union dev 2.0e-13, leakage 4.7e-11
+[  14864 s] qrand108  (0.79 deg) unresolved <r> 0.4318 | leaves 6137: 0.5267 3079: 0.5273 | leaves pooled 0.5269 +- 0.0027 | ref dev 5.0e-10, union dev 8.3e-13, leakage 4.2e-11
+[  14908 s] qrand109  (0.02 deg) unresolved <r> 0.4007 | leaves 6137: 0.4229 3079: 0.4188 | leaves pooled 0.4215 +- 0.0029 | ref dev 5.0e-10, union dev 2.7e-12, leakage 5.7e-11
+[  14953 s] qrand110  (1.43 deg) unresolved <r> 0.4390 | leaves 6137: 0.5268 3079: 0.5238 | leaves pooled 0.5258 +- 0.0027 | ref dev 5.0e-10, union dev 3.8e-13, leakage 3.8e-11
+[  14996 s] qrand111  (6.45 deg) unresolved <r> 0.4409 | leaves 6137: 0.5320 3079: 0.5345 | leaves pooled 0.5328 +- 0.0027 | ref dev 5.0e-10, union dev 3.6e-13, leakage 5.2e-11
+[  15042 s] qrand112  (7.08 deg) unresolved <r> 0.4404 | leaves 6137: 0.5396 3079: 0.5270 | leaves pooled 0.5354 +- 0.0026 | ref dev 5.0e-10, union dev 1.7e-13, leakage 2.8e-11
+[  15092 s] qrand113  (1.21 deg) unresolved <r> 0.4416 | leaves 6137: 0.5293 3079: 0.5258 | leaves pooled 0.5281 +- 0.0026 | ref dev 5.0e-10, union dev 4.4e-13, leakage 5.5e-11
+[  15138 s] qrand114  (0.27 deg) unresolved <r> 0.4387 | leaves 6137: 0.5115 3079: 0.5032 | leaves pooled 0.5087 +- 0.0027 | ref dev 5.0e-10, union dev 2.4e-13, leakage 4.5e-11
+[  15186 s] qrand115  (1.65 deg) unresolved <r> 0.4293 | leaves 6137: 0.5313 3079: 0.5314 | leaves pooled 0.5313 +- 0.0026 | ref dev 5.0e-10, union dev 3.4e-13, leakage 4.6e-11
+[  15231 s] qrand116  (0.91 deg) unresolved <r> 0.4348 | leaves 6137: 0.5255 3079: 0.5288 | leaves pooled 0.5266 +- 0.0027 | ref dev 5.0e-10, union dev 1.2e-12, leakage 5.3e-11
+[  15276 s] qrand117  (0.00 deg) unresolved <r> 0.4053 | leaves 6137: 0.4207 3079: 0.4389 | leaves pooled 0.4268 +- 0.0029 | ref dev 5.9e-10, union dev 1.5e-09, leakage 4.8e-11
+[  15323 s] qrand118  (0.99 deg) unresolved <r> 0.4404 | leaves 6137: 0.5331 3079: 0.5220 | leaves pooled 0.5294 +- 0.0026 | ref dev 5.0e-10, union dev 3.5e-13, leakage 4.8e-11
+[  15367 s] qrand119  (0.18 deg) unresolved <r> 0.4383 | leaves 6137: 0.5006 3079: 0.4799 | leaves pooled 0.4937 +- 0.0027 | ref dev 5.0e-10, union dev 2.0e-13, leakage 2.1e-11
+[  15411 s] qrand120  (1.45 deg) unresolved <r> 0.4341 | leaves 6137: 0.5313 3079: 0.5282 | leaves pooled 0.5303 +- 0.0027 | ref dev 5.0e-10, union dev 2.7e-13, leakage 3.9e-11
+[  15411 s] gates: {'G1_leaves_stable': True, 'G2_block_diagonal': True, 'G3_common_null_space': True, 'G4_stored_values': True, 'G4_directions_checked': 22}
+[  15411 s] ALL GATES PASS
+	Command being timed: "python r2g_hidden_firstorder.py 8 --save-gram"
+	User time (seconds): 169701.00
+	System time (seconds): 245140.56
+	Percent of CPU this job got: 2690%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:16:57
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 77682668
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 2117
+	Minor (reclaiming a frame) page faults: 10492752657
+	Voluntary context switches: 5655962
+	Involuntary context switches: 40683368
+	Swaps: 0
+	File system inputs: 128856
+	File system outputs: 29257048
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

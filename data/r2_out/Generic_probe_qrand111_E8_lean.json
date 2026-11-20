@@ -1,0 +1,117 @@
+{
+ "direction": "qrand111",
+ "th": 8,
+ "parts": [
+  {
+   "file": "Generic_probe_qrand111_E8_lean_rho0.json",
+   "irreps": [
+    0
+   ],
+   "seconds": 2354.54643535614,
+   "ref_ok": null
+  },
+  {
+   "file": "Generic_probe_qrand111_E8_lean_rho2.json",
+   "irreps": [
+    2
+   ],
+   "seconds": 2205.5001204013824,
+   "ref_ok": null
+  },
+  {
+   "file": "Generic_probe_qrand111_E8_lean_rho3.json",
+   "irreps": [
+    3
+   ],
+   "seconds": 2032.5082790851593,
+   "ref_ok": null
+  },
+  {
+   "file": "Generic_probe_qrand111_E8_lean_rho6.json",
+   "irreps": [
+    6
+   ],
+   "seconds": 2000.1408822536469,
+   "ref_ok": null
+  }
+ ],
+ "rows": [
+  {
+   "rho": 0,
+   "lab": [
+    1,
+    1
+   ],
+   "nu": 9225,
+   "nt": 19956,
+   "rank": 9216,
+   "distinct": 9216,
+   "n_gaps": 9214,
+   "r_mean": 0.44085557382790463,
+   "r_sem": 0.0029071784508995584,
+   "smallest_kept": 0.9710772786099362,
+   "largest_dropped": 6.8356264044906145e-12
+  },
+  {
+   "rho": 2,
+   "lab": [
+    1,
+    1
+   ],
+   "nu": 9224,
+   "nt": 19856,
+   "rank": 9208,
+   "distinct": 9208,
+   "n_gaps": 9206,
+   "r_mean": 0.5278834358123071,
+   "r_sem": 0.00265755691979571,
+   "smallest_kept": 1.0648749096011436,
+   "largest_dropped": 1.4455344136694255e-11
+  },
+  {
+   "rho": 3,
+   "lab": [
+    1,
+    1
+   ],
+   "nu": 9224,
+   "nt": 19856,
+   "rank": 9208,
+   "distinct": 9208,
+   "n_gaps": 9206,
+   "r_mean": 0.531287797310436,
+   "r_sem": 0.0026645780593510656,
+   "smallest_kept": 1.0621524167024883,
+   "largest_dropped": 5.362224610144445e-12
+  },
+  {
+   "rho": 6,
+   "lab": [
+    1,
+    1
+   ],
+   "nu": 9224,
+   "nt": 19856,
+   "rank": 9208,
+   "distinct": 9208,
+   "n_gaps": 9206,
+   "r_mean": 0.5286191536793984,
+   "r_sem": 0.002662222890755676,
+   "smallest_kept": 1.0637022811421017,
+   "largest_dropped": 5.377062441583778e-12
+  }
+ ],
+ "rank": 36840,
+ "n_sub": 4,
+ "pooled_all": {
+  "n_gaps": 36832,
+  "r_mean": 0.5071470883511844,
+  "r_sem": 0.001377068444826803
+ },
+ "pooled_without_trivial_irrep": {
+  "n_gaps": 27618,
+  "r_mean": 0.5292634622673804,
+  "r_sem": 0.0015366165154628985
+ },
+ "note": "at even E the trivial-irrep sub-block carries the hidden Z_2 of the even levels, unresolved here; the quotable value pools the other irreps (as for qgen at E = 8)"
+}
