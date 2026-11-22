@@ -1,6 +1,6 @@
 # Onset of quantum chaos in a family of two-dimensional conformal field theories
 
-Felix M. Haehl (University of Southampton) and Moshe Rozali (University of British Columbia)
+[Felix M. Haehl](https://github.com/felixhaehl) (University of Southampton) and [Moshe Rozali](https://github.com/mrozali) (University of British Columbia)
 
 This Letter exhibits random matrix statistics in the scaling dimensions of non-BPS primary operators in a family of explicit two-dimensional conformal field theories: the K3 sigma model near the Kummer orbifold point, deformed by an exactly marginal operator. Along a generic direction of deformation, and with every exact symmetry resolved, the first-order anomalous dimensions follow the Gaussian orthogonal ensemble, while special directions such as the well-known singlet deformation do not.
 
