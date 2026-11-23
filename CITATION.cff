@@ -9,11 +9,11 @@ authors:
   - family-names: "Rozali"
     given-names: "Moshe"
     affiliation: "University of British Columbia"
-version: "1.0.0"
-date-released: "2026-11-22"
+version: "1.0.1"
+date-released: "2026-11-23"
 license: CC-BY-4.0
 repository-code: "https://github.com/mrozali/chaotic-kummer"
-abstract: "Companion repository for the Letter Onset of quantum chaos in a family of two-dimensional conformal field theories, released with the Agentic Publication Protocol. It contains the paper source, the code that builds the first-order matrices of exactly marginal deformations of the K3 sigma model at the Kummer orbifold point from free-field data, the stored first-order spectra for the reference direction, 20 random directions and the singlet direction up to level E = 8, and scripts that reproduce the figures and the table of the Letter and check its numerical statements."
+abstract: "Companion repository for the Letter Onset of quantum chaos in a family of two-dimensional conformal field theories (arXiv:2611.26694), released with the Agentic Publication Protocol. It contains the paper source, the code that builds the first-order matrices of exactly marginal deformations of the K3 sigma model at the Kummer orbifold point from free-field data, the stored first-order spectra for the reference direction, 20 random directions and the singlet direction up to level E = 8, and scripts that reproduce the figures and the table of the Letter and check its numerical statements."
 keywords:
   - "quantum chaos"
   - "random matrix theory"
@@ -25,7 +25,7 @@ keywords:
   - "anomalous dimensions"
   - "level statistics"
 preferred-citation:
-  type: unpublished
+  type: article
   title: "Onset of quantum chaos in a family of two-dimensional conformal field theories"
   authors:
     - family-names: "Haehl"
@@ -33,4 +33,8 @@ preferred-citation:
     - family-names: "Rozali"
       given-names: "Moshe"
   year: 2026
-  notes: "Letter with Supplemental Material, submitted to arXiv in November 2026."
+  url: "https://arxiv.org/abs/2611.26694"
+  identifiers:
+    - type: other
+      value: "arXiv:2611.26694"
+      description: "arXiv identifier"

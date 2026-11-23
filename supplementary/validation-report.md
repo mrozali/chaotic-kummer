@@ -1,13 +1,13 @@
 # Validation report
 
-This file is secondary context. It records the full validation of this repository against the Agentic Publication Protocol (APP) 1.1.0, for release 1.0.0.
+This file is secondary context. It records the full validation of this repository against the Agentic Publication Protocol (APP) 1.1.0, for release 1.0.1. Release 1.0.0 had the same paper, code and data. Release 1.0.1 adds the arXiv identifier of the Letter and links the authors' names in `README.md` to their GitHub profiles.
 
 - **Stage:** full.
 - **Result:** passed.
-- **Date:** 2026-11-20.
-- **Validated by:** Claude (Anthropic, Opus model), working for the authors. The paper-agent test used a separate fresh agent (Sonnet model).
-- **Release:** `mrozali/chaotic-kummer`, tag `v1.0.0`, version `1.0.0`.
-- **Paper:** the authors' final text of the Letter and its Supplemental Material, as submitted to arXiv. The sources in `paper/` are the authors' files with the LaTeX comments removed (see `paper/README.md`).
+- **Date:** 2026-11-20 for the full validation, 2026-11-23 for the changes of release 1.0.1.
+- **Validated by:** Claude (Anthropic, Opus model), working for the authors. The paper-agent test used a separate fresh agent (Sonnet model). The changes of release 1.0.1 were checked by Claude (Fable model).
+- **Release:** `mrozali/chaotic-kummer`, tag `v1.0.1`, version `1.0.1`.
+- **Paper:** the authors' final text of the Letter and its Supplemental Material, which is the first arXiv version, arXiv:2611.26694v1. The sources in `paper/` are the authors' files with the LaTeX comments removed (see `paper/README.md`).
 
 ## Checks passed
 
@@ -21,8 +21,8 @@ This file is secondary context. It records the full validation of this repositor
 - Every path named in `AGENTS.md`, `README.md` and the READMEs under `paper/`, `code/`, `data/` and `environment/` resolves from the repository root. The only exceptions are a few abbreviations such as `fig01_...py` inside sentences that also give the full name.
 - Every shell block in those files parses.
 - Every label of the paper that the docs cite (`eq:Mc`, `fig:firstorderE`, `app:symmetries` and others) exists in the source.
-- The external link to the protocol repository returns HTTP 200. The repository URL itself resolves once the repository is public.
-- The paper cites this repository by its release URL, https://github.com/mrozali/chaotic-kummer/releases/tag/v1.0.0 (reference `HaehlRozali:2026code`, in the paragraph on code and data). It matches the repository and tag of this release.
+- The external links to the protocol repository, to this repository, to the arXiv abstract and to the authors' GitHub profiles return HTTP 200.
+- The paper cites this repository by its release URL, https://github.com/mrozali/chaotic-kummer/releases/tag/v1.0.0 (reference `HaehlRozali:2026code`, in the paragraph on code and data). It names the first release, 1.0.0, which has the same paper, code and data as this one.
 
 **Figure and table map.**
 - `code/figure-reproduction/README.md` lists every figure of the Letter and of the Supplemental Material (Figs. 1 to 4, S1 and S2, Fig. 3 in both layouts) and the table of the End Matter, each with a script, its inputs and outputs, and a final status. All are `reproduced` from the stored spectra.
@@ -52,7 +52,7 @@ The checks reproduce the paper's figures, recompute every quoted number, rebuild
 
 **Consistency.**
 - Title, authors and BibTeX entry agree between `AGENTS.md` and `README.md`, and `CITATION.cff` names the same paper and authors.
-- `version` 1.0.0 matches the tag `v1.0.0`.
+- `version` 1.0.1 matches the tag `v1.0.1`.
 - The paper summary and key results in `AGENTS.md` were checked against the final text, and so were the paper's statements quoted in the figure map.
 - Statements about reproduction status agree across `README.md`, `AGENTS.md`, `environment/README.md`, the figure map and this report.
 
@@ -64,6 +64,16 @@ The checks reproduce the paper's figures, recompute every quoted number, rebuild
 
 **Paper-agent test.** A fresh agent with only this repository answered eight reader questions, recorded in `paper-agent-test.md`. It set up the environment from the docs, ran four checks, and reported observed values for every numerical question, including the headline. It stated the limits the paper states. All eight answers were correct. The three documentation points it raised were corrected.
 
+## Changes in release 1.0.1
+
+Release 1.0.1 changes six documentation files and nothing else: `AGENTS.md` (arXiv identifier, version, BibTeX entry, GitHub handle of the first author), `README.md` (arXiv link, BibTeX entry, the authors' names linked to their GitHub profiles), `CITATION.cff` (version, date, arXiv identifier), `paper/README.md`, `supplementary/paper-agent-test.md` and this report. No other file under `paper/`, and no file under `code/`, `data/` or `environment/`, differs from release 1.0.0. Checked on 2026-11-23:
+
+- The source of arXiv:2611.26694v1 was downloaded and compared file by file. Its two `.tex` files equal, byte for byte, the authors' files from which `paper/` was made, and its bibliography and seven figure files equal those in `paper/`.
+- The arXiv record gives the same title and authors as `AGENTS.md`, `README.md` and `CITATION.cff`.
+- `CITATION.cff` is valid (`cffconvert --validate`), and the BibTeX entries of `AGENTS.md` and `README.md` are identical.
+- The new links return HTTP 200.
+- GitHub Actions ran `./verify.sh quick` on the preceding commit, which has the same paper, code and data: all checks passed.
+
 ## Limits recorded, not blockers
 
 - The spectra at $E=8$ and the singlet's spectra through $E=8$ are stored and checked, but recomputing them needs a cluster (up to 250 to 500 GB of memory in the original jobs).
@@ -73,4 +83,4 @@ The checks reproduce the paper's figures, recompute every quoted number, rebuild
 
 ## Public-release blockers
 
-None for APP compliance.
+None for APP compliance. The authors approved release 1.0.0 on 2026-11-20, and release 1.0.1 adds no change to the paper, code or data.

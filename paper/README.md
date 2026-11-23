@@ -4,6 +4,6 @@
 
 The Letter's source defines `\arXivversion`, which appends the Supplemental Material to the Letter in a single PDF and selects the two-column layout of Fig. 3 (`fig_spacings_singlet_twocol.pdf`). Commenting that line out gives the journal layout: the Letter with its End Matter alone, with the single-column Fig. 3 (`fig_spacings_singlet_onecol.pdf`), and the Supplemental Material as a separate document.
 
-The sources are the authors' files with the LaTeX comments removed. `environment/README.md` gives the build command.
+The sources are those of the first arXiv version of the Letter, [arXiv:2611.26694v1](https://arxiv.org/abs/2611.26694v1), with the LaTeX comments removed. `environment/README.md` gives the build command.
 
 Sections are referred to in this repository as follows: "Results paragraph" and "Wigner surmise and number variance" are paragraphs of Sec. III of the Letter, "End Matter" is the appendix of the Letter, and "Sec. S1" to "Sec. S4" are the sections of the Supplemental Material.

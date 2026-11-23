@@ -6,7 +6,7 @@ This file is secondary context. It records a test of how an AI agent that opens 
 
 On 2026-11-20 a fresh agent (Claude, Sonnet model, as a general-purpose coding agent) was given a clean copy of this repository as its working directory and nothing else: no conversation history, no virtual environment, and no files from outside the copy. It was told to start from `CLAUDE.md`, as an agent opening the repository would, to set up the environment from the repository's own docs if it needed to run code, and not to start any command the docs describe as heavy. It then answered eight reader questions. Its answers were checked against the paper by the agent that prepared the repository (Claude, Opus model).
 
-The repository tested was the release candidate of version 1.0.0, with the authors' final text of the Letter. It differs from the release by this file, `validation-report.md` and the corrections listed at the end.
+The repository tested was the release candidate of version 1.0.0, with the authors' final text of the Letter. It differs from the release by this file, `validation-report.md` and the corrections listed at the end. Release 1.0.1 added the arXiv identifier of the Letter, 2611.26694, which the answer to question 8 below could not yet give.
 
 **Setup it performed.** It read `CLAUDE.md`, `AGENTS.md`, `README.md`, `CITATION.cff`, `verify.sh`, `LICENSE`, `code/figure-reproduction/README.md`, `environment/README.md`, `paper/README.md`, `data/README.md`, the Letter's source and parts of the Supplemental Material. It then ran `python3.14 -m venv .venv` and `.venv/bin/pip install -r environment/requirements.txt`, which installed the pinned versions.
 

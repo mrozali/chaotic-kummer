@@ -4,7 +4,7 @@
 
 This Letter exhibits random matrix statistics in the scaling dimensions of non-BPS primary operators in a family of explicit two-dimensional conformal field theories: the K3 sigma model near the Kummer orbifold point, deformed by an exactly marginal operator. Along a generic direction of deformation, and with every exact symmetry resolved, the first-order anomalous dimensions follow the Gaussian orthogonal ensemble, while special directions such as the well-known singlet deformation do not.
 
-The paper is in [`paper/`](paper/), with the compiled PDF at [`paper/chaotic-kummer-v1.pdf`](paper/chaotic-kummer-v1.pdf). It is submitted to arXiv together with this release, and the arXiv identifier will be added here.
+arXiv: [2611.26694](https://arxiv.org/abs/2611.26694). The paper is also in [`paper/`](paper/), with the compiled PDF at [`paper/chaotic-kummer-v1.pdf`](paper/chaotic-kummer-v1.pdf). Its source is that of the first arXiv version, with the LaTeX comments removed.
 
 ## Talk to this paper
 
@@ -59,9 +59,12 @@ Use the commands in [`code/figure-reproduction/README.md`](code/figure-reproduct
 Please cite the paper. `CITATION.cff` holds the same information in machine-readable form.
 
 ```bibtex
-@misc{Haehl:2026onset,
+@article{Haehl:2026onset,
     author = "Haehl, Felix M. and Rozali, Moshe",
     title = "{Onset of quantum chaos in a family of two-dimensional conformal field theories}",
+    eprint = "2611.26694",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-th",
     year = "2026"
 }
 ```

@@ -5,12 +5,13 @@ title: "Onset of quantum chaos in a family of two-dimensional conformal field th
 authors:
   - name: "Felix M. Haehl"
     affiliation: "University of Southampton"
+    github: "felixhaehl"
   - name: "Moshe Rozali"
     affiliation: "University of British Columbia"
     github: "mrozali"
-arxiv_id: ""
+arxiv_id: "2611.26694"
 paper_format: "latex"
-version: "1.0.0"
+version: "1.0.1"
 domain: "hep-th"
 tags: ["quantum chaos", "random matrix theory", "2d CFT", "K3 sigma model", "Kummer orbifold", "exactly marginal deformations", "D1-D5 system", "anomalous dimensions", "level statistics"]
 recommended_external_skills: []
@@ -69,9 +70,12 @@ Along a generic direction, in sectors where all exact symmetries are resolved, i
 ## Citation
 
 ```bibtex
-@misc{Haehl:2026onset,
+@article{Haehl:2026onset,
     author = "Haehl, Felix M. and Rozali, Moshe",
     title = "{Onset of quantum chaos in a family of two-dimensional conformal field theories}",
+    eprint = "2611.26694",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-th",
     year = "2026"
 }
 ```
